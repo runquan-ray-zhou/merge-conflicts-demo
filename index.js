@@ -9,6 +9,7 @@ function createPerson(name, age) {
   function addPersonAsFriend(person, fiend) {
     person.friends.push(other);
     return person;
+
   }
 
   module.exports = {
